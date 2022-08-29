@@ -1,0 +1,370 @@
+@font-face {
+    font-family: Kanit;
+    src: url('/14010605/font/Kanit/Kanit-Regular.ttf') format('Truetype');
+
+}
+@font-face {
+    font-family: Cairo;
+    src: url('/14010605/font/Cairo/Cairo-VariableFont_wght.ttf') format('Truetype');
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container-header{
+    display: flex;
+    width: 100%;
+    height: 100vh;
+}
+.container-header .box-left{
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+    height: 100vh;
+    background-color: #f5ece7;
+}
+.container-header .box-right{
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    height: 100vh;
+    background-image: url('/14010605/img/wheat-field.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.container-header .box-left .img-logo{
+    width: 100%;
+    height: 15%;
+
+}
+.container-header .box-left .img-logo img{
+    display: inline-block;
+    width: 150px;
+    margin-left: 100px;
+    margin-top: 20px;
+}
+.container-header .box-left .title-header{
+    width: 100%;
+    height: 45%;
+
+}
+.container-header .box-left .title-header .title-content{
+    width: 500px;
+    font-family: Kanit;
+    letter-spacing: -2px;
+    line-height: 65px;
+    font-size: 55px;
+    font-weight: bolder;
+    margin-left: 100px;
+    margin-top: 60px;
+    color: #73504C;
+}
+.container-header .box-left .desc-header{
+    width: 100%;
+    height: 20%;
+
+}
+.container-header .box-left .desc-header .desc-content{
+    width: 500px;
+    color: #73504C;
+    margin-left: 100px;
+    margin-top: 25px;
+    text-align: justify;
+    font-family: Cairo;
+    font-size: 15px;
+}
+.container-header .box-left .btn-header{
+    width: 100%;
+    height: 20%;
+
+}
+.container-header .box-left .btn-header .btn-content{
+    font-size: 16px;
+    padding: 6px 20px;
+    font-family: Cairo;
+    margin-left: 100px;
+    background-color: #73504C;
+    color: white;
+    border: none;
+}
+.container-header .box-left .btn-header .btn-content:hover{
+    color: orange;
+
+}
+.container-header .box-right .menu-bar{
+    display: flex;
+    width: 100%;
+    height: 35%;
+    justify-content: center;
+    align-items: center;
+
+}
+.container-header .box-right .menu-list{
+    list-style-type: none;
+    display: flex;
+    background-color: rgba(255, 255, 255, 0.3);
+    padding: 10px 25px;
+    border-radius: 10px;
+}
+.container-header .box-right .menu-list .menu-item{
+    padding: 0 10px;
+    font-family: Cairo;
+}
+.container-header .box-right .menu-list .menu-item:hover{
+    color: orange;
+}
+
+.container-header .box-right .img-right img{
+    width: 350px;
+    border-top-left-radius: 200px ;
+    border-top-right-radius: 200px ;
+    margin-left: -170px;
+    margin-bottom: 50px;
+    box-shadow: 0 0 15px black;
+}
+.container-category{
+    width: 100%;
+    height: 48rem;
+    background-color: white
+}
+.container-category .header-category{
+    width: 100%;
+    height: 8rem;
+}
+.container-category .content-cat{
+    display: flex;
+    width: 100%;
+    height: 34rem;
+}
+.container-category .leftbox-cat{
+    width: 50%;
+    height: 34rem;
+    padding: 55px 10px 55px 100px;
+}
+.container-category .leftbox-cat .leftbox-img-cat{
+    width: 100%;
+    height: 27rem;
+    background-image: url('/14010605/img/spacejoy-RqO6kwm4tZY-unsplash.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    box-shadow: 0 0 15px gray;
+}
+.container-category .rightbox-cat{
+    display: flex;
+    flex-direction: column;
+    padding: 55px 100px 55px 10px;
+    width: 50%;
+    height: 34rem;
+}
+.container-category .rightbox-cat .box1-cat{
+    width: 100%;
+    height: 16rem;
+    margin-bottom: 15px;
+    background-image: url('/14010605/img/white-wash-rattan-rectangular-wicker-storage-floor-basket-p913-4452_image.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    box-shadow: 0 0 15px gray;
+}
+.container-category .rightbox-cat .box2-cat{
+    width: 100%;
+    height: 16rem;
+    background-image: url('/14010605/img/baskets-entryway-w.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    box-shadow: 0 0 15px gray;
+}
+.container-category .header-category .header-title-cat{
+    font-size: 2rem;
+    font-family: Kanit;
+    padding-left: 100px;
+    padding-top: 80px;
+    color: #73504C;
+}
+.container-category .header-category .header-desc-cat{
+    font-size: 0.9rem;
+    color:#73504C;
+    font-family: Cairo;
+    padding-left: 100px;
+}
+.container-about{
+    display: flex;
+    background-color: #f5ece7;
+    width: 100%;
+    height: 44rem;
+}
+.container-about .box-img-about{
+    width: 45%;
+    height: 44rem;
+    background-image: url('/14010605/img/baskets-entryway-w.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.container-about .box-content-about{
+
+    width: 55%;
+    height: 44rem;
+
+}
+.container-about .box-content-about .box-title-about{
+    width: 100%;
+    height: 10rem;
+
+}
+.container-about .box-content-about .box-desc-about{
+    width: 100%;
+    height: 24rem;
+
+}
+.container-about .box-content-about .box-btn-about{
+    width: 100%;
+    height: 10rem;
+
+}
+.box-title-about .about-title{
+    padding-top: 5.8rem;
+    padding-left: 6rem;
+    font-family: Kanit;
+    font-size: 2rem;
+    color: #73504C;;
+}
+.box-title-about .about-title-desc{
+    font-size: 0.9rem;
+    color: #73504C;
+    padding-left: 6rem;
+    font-family: Cairo;
+    margin-top: -0.3rem;
+}
+.box-desc-about .about-desc{
+    width: 800px;
+    text-align: justify;
+    padding-left: 6rem;
+    padding-top: 3rem;
+    color: #73504C;
+    text-align: justify;
+    font-family: Cairo;
+    font-size: 15px;
+}
+.box-btn-about .about-btn{
+    padding: 6px 20px;
+    background-color: #73504C;
+    border: none;
+    color: white;
+    font-size: 16px;
+    font-family: Cairo;
+    margin-left: 6rem;
+}
+.box-btn-about .about-btn:hover{
+    color: orange;
+}
+.container-services{
+    width: 100%;
+    height: 44rem;
+}
+.container-services .header-services{
+    width: 100%;
+    height: 10rem;
+}
+.box-content-services{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+    height: 34rem;
+}
+.box-content-services .box1-services{
+    width: 20rem;
+    height: 26rem;
+    margin: 2rem 3rem 0 0;
+    border-top-left-radius: 160px;
+    border-top-right-radius: 160px;
+    border: none;
+    background-image: url('/14010605/img/sarah-dorweiler-0QmzQZndkOQ-unsplash.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    box-shadow: 0 0 15px gray;
+}
+.box-content-services .box2-services{
+    width: 20rem;
+    height: 26rem;
+    margin: 2rem 3rem 0 0;
+    border-top-left-radius: 160px;
+    border-top-right-radius: 160px;
+    border: none;
+    background-image: url('/14010605/img/serafima-lazarenko-JVp2B25Jen0-unsplash.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    box-shadow: 0 0 15px gray;
+}
+
+.box-content-services .box3-services{
+    width: 20rem;
+    height: 26rem;
+    margin: 2rem 3rem 0 0;
+    border-top-left-radius: 160px;
+    border-top-right-radius: 160px;
+    border: none;
+    background-image: url('/14010605/img/oscar-helgstrand-6ojCyWPrzCk-unsplash.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    box-shadow: 0 0 15px gray;
+}
+.header-services .title-header-services{
+    padding-top: 5.8rem;
+    padding-left: 6rem;
+    font-family: Kanit;
+    font-size: 2rem;
+    color: #73504C;;
+}
+.header-services .desc-header-services{
+    width: 800px;
+    text-align: justify;
+    padding-left: 6rem;
+    margin-top: -0.3rem;
+    color: #73504C;
+    text-align: justify;
+    font-family: Cairo;
+    font-size: 15px;
+}
+.services-btn{
+    padding: 6px 20px;
+    background-color: #73504C;
+    border: none;
+    color: white;
+    font-size: 16px;
+    font-family: Cairo;
+    margin-top: 25rem;
+    box-shadow: 0 0 15px gray;
+}
+.services-btn:hover{
+    color: orange;
+}
+.services-text{
+    width: 20rem;
+    color: #73504C;
+    text-align: justify;
+    font-family: Cairo;
+    font-size: 13px;
+    line-height: 1rem;
+}
+.footer{
+
+    width: 100%;
+    height: 5rem;
+    background-color:#f5ece7 ;
+}
+
+.footer ul{
+    display: flex;
+    justify-content: center;
+    padding: 12px;
+    list-style: none;
+}
+.footer ul li{
+    margin: 10px;
+    font-size: 35px;
+    color: #73504C;
+}
+.footer ul li:hover{
+    color: orange;
+}
